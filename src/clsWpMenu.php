@@ -75,7 +75,7 @@ class clsWpMenu
     {
         if (is_admin()) return $items;
         
-        $filtered = [];
+        $filtered = array();
 
         foreach ($items as $item) {
             $show = true;
